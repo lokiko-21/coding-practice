@@ -1,0 +1,13 @@
+/*This is a comment for CSS*/
+h1 {
+  font-size: 125px;
+  color: red;
+  background-color: lightblue;
+  text-shadow: 3px 6px black;
+}
+p {
+  color: red;
+  background-color: lightblue;
+  font-size: 100px;
+  text-align: center;
+}

@@ -1,0 +1,379 @@
+body {
+    font-family: 'Roboto', cursive;
+    background-color: #ffffcc;
+    min-height: 100vh;
+}
+
+/* HEADER STYLES */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c8e6c9;
+}
+
+.company-name {
+    font-family: 'Roboto', cursive;
+    font-size: 3em;
+    color: #3a5a40;
+    margin: 0;
+}
+
+.current-page {
+    font-weight: bold;
+    font-size: 2.1em;
+    color: #3a5a40;
+    margin: 0;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container ul li {
+    margin: 0 10px;
+    display: inline;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: #3a5a40;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-container ul li a:hover {
+    background-color: #3a5a40;
+    color: #c8e6c9;
+}
+
+#cart-icon img{
+    height: 5em;
+    width: auto;
+    border-radius: 5px;
+}
+
+/* HOME CARDS */
+.home-featured h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #3a5a40;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-about h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #3a5a40;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-card {
+    background-color: #c8e6c9;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-card h3 {
+    text-decoration: underline;
+    color: #3a5a40;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home-card p {
+    color: #3a5a40;
+    font-size: 1.5em;
+}
+
+/* HOME NEWSLETTER */
+.home-signup {
+    background-color: #3a5a40;
+    color: #ffffcc;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+  }
+  
+  .signup-container {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .signup-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .signup-container label,
+  .signup-container input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .signup-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-container input[type="submit"] {
+    background-color: #ffffcc;
+    color: #3a5a40;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .signup-container input[type="submit"]:hover {
+    background-color: #e6e6b5;
+  }
+  
+
+/* ABOUT */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column img {
+    height: 30em;
+    width: auto;
+    border-radius: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.about-history h2 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-history p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.about-evolution h2 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-evolution p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.about-future h2 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-future p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* PRODUCT CARDS */
+.product-popular h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-seasonal h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-herbal h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-milk h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tea-card {
+    flex: 1 1 calc(33% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    max-width: 25%;
+    box-sizing: border-box;
+    background-color: #c8e6c9;
+}
+
+.tea-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.tea-card h3 {
+    text-decoration: underline;
+    color: #3a5a40;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+.tea-card p {
+    color: #3a5a40;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.tea-card button {
+    font-size: 1.1em;
+    background-color: #ffffcc;
+    color: #3a5a40;
+    padding: 5px 10px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tea-card button:hover {
+    background-color: #3a5a40;
+    color: #ffffcc;
+}
+
+/* FOOTER STYLES */
+footer {
+    background-color: #6b8e23;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* CONTACT */
+.contact {
+    background-color: #3a5a40;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 75vw;
+    min-height: 100vh;
+    margin: 10px auto;
+}
+
+.contact h2, .contact p {
+    text-align: center;
+    color: #ffffcc;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    color: #ffffcc;
+}
+
+.contact label, .contact textarea, .contact input {
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.contact textarea {
+    width: 80%;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #ffffcc;
+    color: #3a5a40;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.contact button:hover {
+    background-color: #e6e6b5;
+}

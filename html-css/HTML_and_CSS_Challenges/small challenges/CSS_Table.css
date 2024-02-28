@@ -1,0 +1,20 @@
+body {
+  background-color: lightyellow;
+}
+table {
+  border: 7px solid darkgreen;
+}
+td:hover {
+  background-color: lightblue;
+  color: black;
+  font-weight: bolder;
+}
+tr, th {
+  background-color: black;
+  color: cornsilk;
+}
+tr, td {
+  text-align: center;
+  background-color: #5072A7;
+  color: white;
+}
